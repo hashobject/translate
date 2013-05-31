@@ -1,4 +1,4 @@
-(defproject translate "0.2.0-SNAPSHOT"
+(defproject translate "0.3.0-SNAPSHOT"
   :description "Translate library in Clojure. Google Translate API v2 support."
   :url "https://github.com/hashobject/translate"
   :license {:name "Eclipse Public License"

@@ -17,9 +17,16 @@
   (deftest hello-text-test
     (testing "Hello should be ¡Hola in Spanish"
       (is (= "¡Hola" (translate "Hello"
-                   {:key "enter your Google Translate API key here"
+                   {:key "your google translate key"
                     :source "en"
-                    :target "es"}))))))
+                    :target "es"})))))
+  (deftest hola-text-test
+    (testing "Hola should be Hello in English"
+      (is (= "Hello" (translate "Hola"
+                   {:key "your google translate key"
+                    :source "es"
+                    :target "en"})))))
+  )
 
 
 

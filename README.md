@@ -8,7 +8,7 @@ Initially Google Translate v2 API is implemented.
 ## Install
 
 ```
-[translate "0.1.0"]
+[translate "0.3.0"]
 ```
 
 ## Usage
