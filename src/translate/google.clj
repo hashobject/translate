@@ -1,10 +1,12 @@
 (ns translate.google
+  "Library for using Google Translate API v2 from Clojure."
   (:require [clojure.string :as string]
             [clj-http.client :as http]))
 
 (defn empty-str [] "")
 
 (defn translate [s options]
+  "Transtale text using Google Translate API v2."
   (if (string/blank? s) (empty-str)
     (let [params {"key" (:key options)
                   "source" (:source options)
