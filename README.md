@@ -1,6 +1,6 @@
 # translate
 
-A Clojure library designed to trasnalte text from one language to another
+A Clojure library designed to translate text from one language to another
 using various web APIs.
 
 Initially Google Translate v2 API is implemented.
