@@ -8,13 +8,13 @@ Initially Google Translate v2 API is implemented.
 ## Install
 
 ```
-[translate "0.3.0"]
+[translate "0.3.2"]
 ```
 
 ## Usage
 
 ```
-user=> (:use 'translate.google)
+user=> (use 'translate.google)
 nil
 user=> (translate "Hello" {:key "your google translate key"
                            :source "en"
