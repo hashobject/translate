@@ -6,7 +6,7 @@
 (defn empty-str [] "")
 
 (defn translate [s options]
-  "Transtale text using Google Translate API v2."
+  "Translate text using Google Translate API v2."
   (if (string/blank? s) (empty-str)
     (let [params {"key" (:key options)
                   "source" (:source options)
