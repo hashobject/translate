@@ -27,6 +27,10 @@ user=> (translate "Hello" {:key "your google translate key"
 If you need to get API key for Google Translate API you should visit
 [Google API console](https://code.google.com/apis/console/).
 
+## Contributions
+
+We love contributions. Please submit your pull requests.
+
 ## License
 
 Copyright © 2013 HashObject Ltd (team@hashobject.com).
