@@ -7,13 +7,13 @@ Initially Google Translate v2 API is implemented.
 
 ## Install
 
-```shell
+```
 [translate "0.3.2"]
 ```
 
 ## Usage
 
-```shell
+```
 user=> (use 'translate.google)
 nil
 user=> (translate "Hello" {:key "your google translate key"
