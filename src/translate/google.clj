@@ -3,7 +3,7 @@
   (:require [clojure.string :as string]
             [clj-http.client :as http]))
 
-(defn empty-str [] "")
+(def empty-str "")
 
 (defn translate [s options]
   "Translate text using Google Translate API v2."
