@@ -5,7 +5,7 @@ using various web APIs.
 
 Initially only Google Translate v2 API is implemented.
 
-[![Dependencies Status](http://jarkeeper.com/hashobject/translate/status.png)](http://jarkeeper.com/hashobject/translate)
+[![Dependencies Status](http://jarkeeper.com/hashobject/translate/status.svg)](http://jarkeeper.com/hashobject/translate)
 
 ## Install
 
